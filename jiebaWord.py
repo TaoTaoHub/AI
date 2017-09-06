@@ -7,6 +7,7 @@ resultPath = 'word.txt'
 saveFile = open(resultPath, 'wb')
 count = 0
 
+
 with open(filePath, encoding='utf-8') as content:
     for line in content:
         if not line:
