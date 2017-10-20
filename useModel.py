@@ -6,6 +6,7 @@ model = word2vec.load('Word2VecModel.bin')
 words = model.cosine('努力')
 vec = model['网']
 print(vec.dot(vec))
+
 #print(model['努力'])
 #print(words)
 #for x in words[0]:
